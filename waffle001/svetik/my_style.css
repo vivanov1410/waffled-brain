@@ -1,0 +1,47 @@
+header, section, aside, footer {
+	display: block;
+}
+
+body {
+	background-color: #ECECEC;
+	font-family: verdana;
+}
+
+h1 {
+	font-family: verdana;
+	color: #FF3300;
+}
+
+p, h3, ul {
+	color: #222;
+}
+
+footer {
+	font-size: 12px;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.button {
+	font: 34px Monospace;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 30px;
+	padding: 40px;
+	background-color: #FF4719;
+	border: 1px solid #CC2900;
+}
+
+.button:hover{
+	border-top-color: #E66916;
+  background: #FF3300;
+  color: #841B00;
+  border: 1px solid #E62E00;
+}
+
+.button:active {
+  background: #CC2900;
+}
